@@ -1,8 +1,62 @@
-# smart_contract_helloworld
-Write and deploy your first smart contract.
+# Smart Contract Hello World
 
+This repository presents practices about:
 
-var hw;
-Main.deployed().then(function(d){hw = d;});
-hw.setUserName("Ahmet")
-hw.printMessage.call()
+- Setup a blockchain.
+- Develop Etherium smart contract.
+- Deploy the contract and test it.
+
+## Quick Demo
+
+First, clone the repository and build the project using truffle by this command:
+
+    truffle build
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22610163/104853166-15802300-5910-11eb-84d9-4b3c66bbbe45.png" | width=720>
+</p>
+
+After building the project, it can be deployed using truffle by this command:
+
+    truffle migrate
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22610163/104853342-43b23280-5911-11eb-9aec-f9e534af1bf3.png" | width=720>
+</p>
+
+Now, our smart contract has built and deployed so we can perform test on it by these commands respectively:
+
+    var hw;
+    Main.deployed().then(function(d){hw = d;});
+    hw.setUserName("Ahmet")
+    hw.printMessage.call() // prints Hello Ahmet!
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22610163/104853415-bae7c680-5911-11eb-9322-5b0f18360fdf.png" | width=720>
+</p>
+
+## Installation
+
+### Setup
+
+- **Truffle**
+
+      sudo npm install -g truffle@5.1.39 --unsafe-perm=true
+
+- **Ganache** installation guide can be found in [here](https://www.trufflesuite.com/ganache).
+
+## Citation
+If you use this code for your publications, please cite it as:
+
+    @ONLINE{vdtct,
+        author = "Ahmet Özlü",
+        title  = "Smart Contract Hello World",
+        year   = "2021",
+        url    = "https://github.com/ahmetozlu/smart_contract_helloworld"
+    }
+
+## Author
+Ahmet Özlü
+
+## License
+This system is available under the MIT license. See the LICENSE file for more info.
