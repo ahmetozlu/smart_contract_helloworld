@@ -13,7 +13,7 @@ First, clone the repository and build the project using truffle by this command:
     truffle build
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/22610163/104853166-15802300-5910-11eb-84d9-4b3c66bbbe45.png" | width=720>
+  <img src="https://user-images.githubusercontent.com/22610163/104853166-15802300-5910-11eb-84d9-4b3c66bbbe45.png">
 </p>
 
 After building the project, it can be deployed using truffle by this command:
@@ -21,10 +21,10 @@ After building the project, it can be deployed using truffle by this command:
     truffle migrate
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/22610163/104853342-43b23280-5911-11eb-9aec-f9e534af1bf3.png" | width=720>
+  <img src="https://user-images.githubusercontent.com/22610163/104853342-43b23280-5911-11eb-9aec-f9e534af1bf3.png">
 </p>
 
-Now, our smart contract has built and deployed so we can perform test on it by these commands respectively:
+Now, our smart contract has been built and deployed so we can perform test on it by these commands respectively:
 
     var hw;
     Main.deployed().then(function(d){hw = d;});
@@ -32,7 +32,7 @@ Now, our smart contract has built and deployed so we can perform test on it by t
     hw.printMessage.call() // prints Hello Ahmet!
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/22610163/104853415-bae7c680-5911-11eb-9322-5b0f18360fdf.png" | width=720>
+  <img src="https://user-images.githubusercontent.com/22610163/104853415-bae7c680-5911-11eb-9322-5b0f18360fdf.png">
 </p>
 
 ## Installation
