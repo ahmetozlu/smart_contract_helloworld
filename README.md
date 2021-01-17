@@ -3,7 +3,7 @@
 This repository presents practices about:
 
 - Setup a blockchain.
-- Develop Etherium smart contract.
+- Develop Ethereum smart contract.
 - Deploy the contract and test it.
 
 ## Quick Demo
