@@ -16,7 +16,7 @@ First, clone the repository and build the project using truffle by this command:
   <img src="https://user-images.githubusercontent.com/22610163/104853166-15802300-5910-11eb-84d9-4b3c66bbbe45.png">
 </p>
 
-After building the project, it can be deployed using truffle by this command:
+After building the project and starting ganache which provides ethereum blockchain network on your local, our smart contract can be deployed using truffle by this command:
 
     truffle migrate
 
