@@ -35,6 +35,14 @@ Now, our smart contract has been built and deployed so we can perform test on it
   <img src="https://user-images.githubusercontent.com/22610163/104853415-bae7c680-5911-11eb-9322-5b0f18360fdf.png">
 </p>
 
+Moreover, you can use [developed unit test class](https://github.com/ahmetozlu/smart_contract_helloworld/blob/main/test/Main.test.js) to perform unit testing:
+
+    truffle test
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22610163/105637713-df96ed80-5e7f-11eb-8ea9-43f976c10a5c.png">
+</p>
+
 ## Installation
 
 ### Setup
