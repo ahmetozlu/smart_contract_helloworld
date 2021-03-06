@@ -8,7 +8,7 @@ This repository presents practices about:
 
 ## Quick Demo
 
-The main instructions are given below and also the tutorial video of this project can be found on [my YouTube channel](https://www.youtube.com/watch?v=Oxdop144I7Q).
+*The main instructions are given below and also the tutorial video of this project can be found on [my YouTube channel](https://www.youtube.com/watch?v=Oxdop144I7Q).*
 
 First, clone the repository and build the project using truffle by this command:
 
